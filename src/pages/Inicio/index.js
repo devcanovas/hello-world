@@ -1,11 +1,12 @@
+import Banner from "components/Banner";
 
 const Inicio = () => {
+  return (
+    <main>
+      <Banner />
+      <h1>Olá mundo</h1>
+    </main>
+  );
+};
 
-    return(
-        <h1>Olá mundo</h1>
-    )
-
-}
-
-export default Inicio
-
+export default Inicio;
