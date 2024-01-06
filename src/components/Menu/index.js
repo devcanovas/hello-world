@@ -1,5 +1,5 @@
 import styles from "./Menu.module.css";
-import MenuItem from "./MenuItem";
+import MenuItem from "../MenuItem";
 
 const Menu = () => {
 
