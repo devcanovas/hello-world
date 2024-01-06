@@ -4,7 +4,7 @@ import styles from "./Inicio.module.css";
 
 const Inicio = () => {
   return (
-    <ul className={styles.posts}>
+    <ul className={styles.posts} style={{ marginTop: '-2.5rem' }}>
       {posts.map((post) => {
         return (
           <li key={post.id}>
