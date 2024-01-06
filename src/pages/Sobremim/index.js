@@ -14,7 +14,7 @@ const Sobremim = () => {
         className={styles.fotoSobreMim}
       />
       <p className={styles.paragrafo}>
-        Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te
+        (Texto retirado do curso alura) Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te
         ver por aqui.
       </p>
       <p className={styles.paragrafo}>
