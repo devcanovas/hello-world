@@ -13,8 +13,8 @@ function AppRoutes() {
 
       <Routes>
         <Route path="/" element={<DefaultPage />}>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/sobremim" element={<Sobremim />} />
+          <Route index element={<Inicio />} />
+          <Route path="sobremim" element={<Sobremim />} />
         </Route>
 
         {/* 
