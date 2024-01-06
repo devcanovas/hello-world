@@ -5,6 +5,8 @@ import Sobremim from "./pages/Sobremim";
 import Menu from "./components/Menu";
 import Footer from "components/Footer";
 import DefaultPage from "components/DeafultPage";
+import Post from "pages/Post";
+import NotFound from "pages/NotFound";
 
 function AppRoutes() {
   return (
@@ -34,9 +36,8 @@ function AppRoutes() {
         
         
         */}
-
-
-        <Route path="*" element={<div>Página não encontrada</div>} />
+        <Route path="posts/:id" element={<Post />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />
