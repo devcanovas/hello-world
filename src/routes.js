@@ -3,6 +3,7 @@ import "./App.css";
 import Inicio from "./pages/Inicio";
 import Sobremim from "./pages/Sobremim";
 import Menu from "./components/Menu";
+import Footer from "components/Footer";
 
 function AppRoutes() {
   return (
@@ -13,6 +14,7 @@ function AppRoutes() {
         <Route path="/sobremim" element={<Sobremim />} />
         <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

@@ -2,6 +2,7 @@ import Banner from "components/Banner";
 import styles from './Inicio.module.css'
 import posts from 'json/posts.json'
 import Post from "components/Post";
+import Footer from "components/Footer";
 
 const Inicio = () => {
   return (

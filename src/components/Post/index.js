@@ -5,7 +5,7 @@ const Post = ({ post }) => {
     <div className={styles.post}>
       <img
         className={styles.capa}
-        src={`/assets/posts/${post.id}/capa.png`}
+        src={`assets/posts/${post.id}/capa.png`}
         alt="Capa do post"
       />
       <h2 className={styles.titulo}>{post.titulo}</h2>
