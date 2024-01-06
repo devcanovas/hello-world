@@ -1,22 +1,18 @@
-import Banner from "components/Banner";
-import styles from './Inicio.module.css'
-import posts from 'json/posts.json'
 import Post from "components/Post";
-import Footer from "components/Footer";
+import posts from "json/posts.json";
+import styles from "./Inicio.module.css";
 
 const Inicio = () => {
   return (
-    <main>
-      <Banner />
-      
-      <ul className={styles.posts}>
-        {posts.map((post) => {
-          return  <li key={post.id}>
+    <ul className={styles.posts}>
+      {posts.map((post) => {
+        return (
+          <li key={post.id}>
             <Post post={post} />
           </li>
-        })}
-      </ul>
-    </main>
+        );
+      })}
+    </ul>
   );
 };
 
